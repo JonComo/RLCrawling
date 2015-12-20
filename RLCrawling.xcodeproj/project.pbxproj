@@ -15,6 +15,7 @@
 		863C638B1C25BEF10095A557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863C63891C25BEF10095A557 /* LaunchScreen.storyboard */; };
 		863C63961C25BEF10095A557 /* RLCrawlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 863C63951C25BEF10095A557 /* RLCrawlingTests.m */; };
 		863C63A11C25BEF10095A557 /* RLCrawlingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 863C63A01C25BEF10095A557 /* RLCrawlingUITests.m */; };
+		863C63B11C2615D40095A557 /* RLNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 863C63B01C2615D40095A557 /* RLNet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		863C639C1C25BEF10095A557 /* RLCrawlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLCrawlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		863C63A01C25BEF10095A557 /* RLCrawlingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLCrawlingUITests.m; sourceTree = "<group>"; };
 		863C63A21C25BEF10095A557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863C63AF1C2615D40095A557 /* RLNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLNet.h; sourceTree = "<group>"; };
+		863C63B01C2615D40095A557 /* RLNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLNet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				863C637F1C25BEF10095A557 /* AppDelegate.m */,
 				863C63811C25BEF10095A557 /* ViewController.h */,
 				863C63821C25BEF10095A557 /* ViewController.m */,
+				863C63AF1C2615D40095A557 /* RLNet.h */,
+				863C63B01C2615D40095A557 /* RLNet.m */,
 				863C63841C25BEF10095A557 /* Main.storyboard */,
 				863C63871C25BEF10095A557 /* Assets.xcassets */,
 				863C63891C25BEF10095A557 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				863C63831C25BEF10095A557 /* ViewController.m in Sources */,
 				863C63801C25BEF10095A557 /* AppDelegate.m in Sources */,
 				863C637D1C25BEF10095A557 /* main.m in Sources */,
+				863C63B11C2615D40095A557 /* RLNet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
